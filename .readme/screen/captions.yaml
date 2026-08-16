@@ -1,0 +1,9 @@
+01-overview.png:
+  en: "The matrix condenses host and service health into a color-coded overview; selecting a cell opens the exact problem context."
+  cs: "Matice zhušťuje stav hostů a služeb do barevného přehledu; výběr buňky otevře přesný kontext problému."
+02-form.png:
+  en: "Choose host groups, tags and severities in the native widget form to build the matrix for your environment."
+  cs: "V nativním formuláři widgetu vyberte skupiny hostů, tagy a závažnosti a sestavte matici pro své prostředí."
+03-cell-detail-popup.png:
+  en: "On Zabbix 6.0 - 6.4 a click on a cell opens the detail as a dialog: host, inventory, the trigger's problem, operational data, event details and actions, with Update, Execute now, History and Graph."
+  cs: "Na Zabbixu 6.0 - 6.4 klik na buňku otevře detail jako dialog: host, inventář, problém triggeru, provozní data, detail události a akce, s tlačítky Update, Execute now, History a Graph."
