@@ -1,0 +1,18 @@
+01-overview.png:
+  en: "The matrix condenses host and service health into a color-coded overview; selecting a cell opens the exact problem context in the companion tile."
+  cs: "Matice zhušťuje stav hostů a služeb do barevného přehledu; výběr buňky otevře přesný kontext problému v doprovodném widgetu."
+02-matrix.png:
+  en: "Hosts down the side, service tags across the top; every cell carries the highest open severity in Zabbix's own colours."
+  cs: "Hosty dole po straně, tagy služeb nahoře; každá buňka nese nejvyšší otevřenou závažnost v barvách Zabbixu."
+03-groups.png:
+  en: "Rows by host groups: hosts fold into their groups and each cell shows the worst problem found on any host of the group behind that column."
+  cs: "Řádky podle skupin hostů: hosty se složí do svých skupin a každá buňka ukazuje nejhorší problém nalezený na kterémkoli hostovi skupiny za daným sloupcem."
+cell-detail.png:
+  en: "The matrixMAX-detail companion: the host, the trigger and its problem, event details and actions behind the clicked cell."
+  cs: "Doprovodný widget matrixMAX-detail: host, trigger a jeho problém, detaily události a akce za kliknutou buňkou."
+dark-theme.png:
+  en: "The same board on a dark theme - severity cards, buttons and hints stay readable."
+  cs: "Stejná nástěnka v tmavém motivu - karty závažností, tlačítka i nápovědy zůstávají čitelné."
+06-settings.png:
+  en: "The widget form: host groups, Rows by hosts or host groups, the severity filter and the non-destructive tag and host loaders."
+  cs: "Formulář widgetu: skupiny hostů, řádky podle hostů nebo skupin hostů, filtr závažností a nedestruktivní načítání tagů a hostů."
