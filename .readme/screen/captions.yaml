@@ -1,0 +1,21 @@
+01-overview.png:
+  en: "The board matrixMAX is bought for: the matrix condenses host and service health into a colour-coded grid, and the cell you select opens its exact problem in the matrixMAX-detail companion beside it."
+  cs: "Nástěnka, kvůli které se matrixMAX kupuje: matice zhušťuje stav hostů a služeb do barevné mřížky a vybraná buňka otevře svůj přesný problém v doprovodném widgetu matrixMAX-detail vedle ní."
+02-matrix.png:
+  en: "Hosts down the side, service tags across the top; every cell carries the highest open severity in Zabbix's own colours, a blank cell means the host has no check behind that column, and a wrench marks a host in maintenance."
+  cs: "Hosty po straně, tagy služeb nahoře; každá buňka nese nejvyšší otevřenou závažnost v barvách Zabbixu, prázdná buňka znamená, že host za daným sloupcem žádnou kontrolu nemá, a klíč označuje hosta v údržbě."
+03-groups.png:
+  en: "Rows by host groups: hosts fold into their groups and each cell shows the worst problem found on any host of the group behind that column."
+  cs: "Řádky podle skupin hostů: hosty se složí do svých skupin a každá buňka ukazuje nejhorší problém nalezený na kterémkoli hostovi skupiny za daným sloupcem."
+cell-detail.png:
+  en: "The matrixMAX-detail companion: the host, the trigger and its problem, event details and actions behind the clicked cell."
+  cs: "Doprovodný widget matrixMAX-detail: host, trigger a jeho problém, detaily události a akce za kliknutou buňkou."
+dark-theme.png:
+  en: "The same board on a dark theme - severity cells, the detail card and its controls stay readable."
+  cs: "Stejná nástěnka v tmavém motivu - buňky závažnosti, karta detailu i její ovládání zůstávají čitelné."
+06-settings.png:
+  en: "The widget form end to end: host groups, Rows by hosts or host groups, the severity filter, the non-destructive tag and host loaders, the row order and suppressed problems."
+  cs: "Formulář widgetu celý: skupiny hostů, řádky podle hostů nebo skupin hostů, filtr závažností, nedestruktivní načítání tagů a hostů, řazení řádků a potlačené problémy."
+cell-detail-popup-6x.png:
+  en: "On Zabbix 6.4 - and anywhere no companion tile is placed - the same cell detail opens as a dialog instead."
+  cs: "Na Zabbixu 6.4 - a všude, kde není umístěna doprovodná dlaždice - se týž detail buňky otevře jako dialog."
