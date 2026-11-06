@@ -160,9 +160,9 @@ They are one purchase and one version, not two products - a grid you cannot dril
 
 ## Install
 
-**PRO** ships as **GPG-signed `deb` / `rpm` packages** from the initMAX repository - `apt` / `dnf` installs them and keeps them updated.
+**PRO** ships as **GPG-signed `deb` / `rpm` packages** for native installations and **RSA-signed Alpine `apk` packages** for Docker frontends, from the initMAX repository. Use `apt` / `dnf` / `zypper` for native installation and updates.
 
-Running the Zabbix frontend in Docker? The same repository serves an Alpine (`apk`) package, and the **Docker** tab of the Portal installer writes the Dockerfile block for your edition.
+Running the Zabbix frontend in Docker? The **Docker** tab of the Portal installer prepares the Dockerfile block and build command for your edition. Alpine APK is the recommended method; DEB/RPM are also available for matching base images, or use a manual ZIP installation in a persistent volume. For package updates, rebuild your frontend image and recreate the container.
 
 ### Easiest way - the guided installer on the Portal
 
@@ -211,7 +211,7 @@ This product is sold as PRO - there is no FREE edition. Everything below is in t
 | ------------ | ------------------------------------------------------------ |
 | **Zabbix**   | 6.0 · 6.2 · 6.4 · 7.0 · 7.2 · 7.4 · 8.0 - one package covers all |
 | **PHP**      | 7.4 or newer                                                 |
-| **OS**       | Debian/Ubuntu · RHEL/Rocky/Alma/Oracle/Amazon · SUSE         |
+| **OS**       | Debian/Ubuntu · RHEL/Rocky/Alma/Oracle/Amazon · SUSE; Alpine APK for Docker frontends |
 | **Editions** | PRO (token-gated repo) - there is no free edition                  |
 | **Data** | Triggers tagged `matrix:<column name>` - the tag values become the columns |
 | **Widgets** | matrixMAX (6.0 - 8.0) · matrixMAX-detail (6.0 - 8.0; with no companion placed, the cell detail opens as a dialog) - both from one package |
